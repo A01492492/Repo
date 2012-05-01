@@ -1,0 +1,83 @@
+fileFormatVersion: 1
+guid: c2789a71b5e78b64a98bf07e749805ec
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 1
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    cylinder:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    - 6400000
+    pCylinder1:
+    - 100002
+    - 400002
+    - 3300002
+    - 2300002
+    - 6400004
+    group1:
+    - 100004
+    - 400004
+    //RootNode:
+    - 100006
+    - 400006
+    - 11100000
+    pPlane1:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    - 6400002
+    group3:
+    - 100010
+    - 400010
+    group:
+    - 100012
+    - 400012
+    pasted__group1:
+    - 100014
+    - 400014
+    crvlist:
+    - 100016
+    - 400016
+    group2:
+    - 100018
+    - 400018
+    light:
+    - 100020
+    - 400020
+    polymsh_detached1:
+    - 100022
+    - 400022
+    - 3300006
+    - 2300006
+    - 6400006
+    polymsh_detached_null:
+    - 100024
+    - 400024
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: polymsh_detached1
+    4300002: cylinder
+    4300004: pCylinder1
+    4300006: pPlane1

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{345B662B-AB2D-947F-E847-DDF3615021D9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>C:/unity/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>C:/unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\CustomAssets\Lab\Transparency\transparency_generic.js" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\Answer.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\Assesment.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\AssesmentGUI.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\AssessmentManager.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\FeedbackAssessor.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\FeedbackRecord.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\GLBackground.cs" />
+     <Compile Include="Assets\Scripts\AssessmentScripts\Quiz.cs" />
+     <Compile Include="Assets\Scripts\Common\BlackOut.cs" />
+     <Compile Include="Assets\Scripts\Common\ButtonTracker.cs" />
+     <Compile Include="Assets\Scripts\Common\CommingSoon.cs" />
+     <Compile Include="Assets\Scripts\Common\DefaultPositionTracker.cs" />
+     <Compile Include="Assets\Scripts\Common\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\Common\EventDelegater.cs" />
+     <Compile Include="Assets\Scripts\Common\GroupSetup.cs" />
+     <Compile Include="Assets\Scripts\Common\LevelResetter.cs" />
+     <Compile Include="Assets\Scripts\Common\ModeController.cs" />
+     <Compile Include="Assets\Scripts\Common\MoleculeInstantiator.cs" />
+     <Compile Include="Assets\Scripts\Common\MouseToHand.cs" />
+     <Compile Include="Assets\Scripts\Common\PlayerDemoRunner.cs" />
+     <Compile Include="Assets\Scripts\Common\Recorder.cs" />
+     <Compile Include="Assets\Scripts\Common\ReplayDisabler.cs" />
+     <Compile Include="Assets\Scripts\Common\ReviewSystemVtr.cs" />
+     <Compile Include="Assets\Scripts\Common\Runner.cs" />
+     <Compile Include="Assets\Scripts\Common\ScapePointAnimation.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\AARRGuiElement.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\AARRProgressBar.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\BackgroundGUI.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\newPauseButton.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\newPlayButton.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\newRecordButton.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\newRecordTimeline.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\newReplayTimeline.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\StartMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\ToggleVcr.cs" />
+     <Compile Include="Assets\Scripts\GUIScripts\ToggleVcrOrig.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\ColorControl.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\DestroyOnCollision.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\GreenButtonTracker.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\HoodTracker.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\HotSpotBucket.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\InstantiateWaterDrop.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\MoleculeMovement.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\MusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\PlayAudioOnCollision.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\PullyMovement.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\RandomMotion.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\RedButtonTracker.cs" />
+     <Compile Include="Assets\Scripts\LevelOneScripts\Vibrate.cs" />
+     <Compile Include="Assets\Scripts\TempLevel\GasMovement.cs" />
+     <Compile Include="Assets\Scripts\TempLevel\GUIController.cs" />
+     <Compile Include="Assets\Scripts\TempLevel\HotSpotTOBEDELETED.cs" />
+     <Compile Include="Assets\Scripts\TempLevel\Slider.cs" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\Editor\Water3\Water3Editor.cs" />
+     <None Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\RiverWater.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\RiverWaterVertexColor.shader" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3Float.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3Manager.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3UnderwaterEffect.cs" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Shaders\FX-Water3.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water3\Sources\Shaders\Water3Underwater.shader" />
+ <Reference Include="BaxaTech.AssessmentSystem">
+ <HintPath>Assets\Plugins\BaxaTech\BaxaTech.AssessmentSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="BaxaTech.Core">
+ <HintPath>Assets\Plugins\BaxaTech\BaxaTech.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="BaxaTech.ReviewSystem">
+ <HintPath>Assets\Plugins\BaxaTech\BaxaTech.ReviewSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="BaxaTech.AssessmentSystem.Editor">
+ <HintPath>Assets\Plugins\Editor\BaxaTech\BaxaTech.AssessmentSystem.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="BaxaTech.Core.Editor">
+ <HintPath>Assets\Plugins\Editor\BaxaTech\BaxaTech.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="BaxaTech.ReviewSystem.Editor">
+ <HintPath>Assets\Plugins\Editor\BaxaTech\BaxaTech.ReviewSystem.Editor.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

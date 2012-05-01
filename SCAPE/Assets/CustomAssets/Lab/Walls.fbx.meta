@@ -1,0 +1,311 @@
+fileFormatVersion: 1
+guid: 8f8212ea10334424b939d66fdc143f6e
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 1
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    polymsh_detached4:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    - 6400008
+    polymsh_detached2:
+    - 100002
+    - 400002
+    - 3300002
+    - 2300002
+    - 6400014
+    water_container1:
+    - 100004
+    - 400004
+    - 3300004
+    - 2300004
+    - 6400010
+    polymsh_detached1:
+    - 100006
+    - 400006
+    - 3300006
+    - 2300006
+    - 6400012
+    polymsh_detached_null:
+    - 100008
+    - 400008
+    //RootNode:
+    - 100010
+    - 400010
+    - 11100000
+    waterdrop:
+    - 100012
+    - 400012
+    - 3300008
+    - 2300008
+    - 6400006
+    cube3:
+    - 100014
+    - 400014
+    - 3300010
+    - 2300010
+    - 6400070
+    sphere1:
+    - 100016
+    - 400016
+    - 3300012
+    - 2300012
+    - 6400056
+    sphere:
+    - 100018
+    - 400018
+    - 3300014
+    - 2300014
+    - 6400054
+    polymsh4:
+    - 100020
+    - 400020
+    - 3300016
+    - 2300016
+    - 6400052
+    Texture_Support:
+    - 100022
+    - 400022
+    grid:
+    - 100024
+    - 400024
+    - 3300018
+    - 2300018
+    - 6400046
+    polymsh:
+    - 100026
+    - 400026
+    - 3300020
+    - 2300020
+    - 6400048
+    cylinder37:
+    - 100028
+    - 400028
+    - 3300022
+    - 2300022
+    - 6400044
+    cylinder36:
+    - 100030
+    - 400030
+    - 3300024
+    - 2300024
+    - 6400042
+    cylinder35:
+    - 100032
+    - 400032
+    - 3300026
+    - 2300026
+    - 6400040
+    cylinder34:
+    - 100034
+    - 400034
+    - 3300028
+    - 2300028
+    - 6400038
+    cylinder32:
+    - 100036
+    - 400036
+    - 3300030
+    - 2300030
+    - 6400036
+    cylinder30:
+    - 100038
+    - 400038
+    - 3300032
+    - 2300032
+    - 6400034
+    cylinder29:
+    - 100040
+    - 400040
+    - 3300034
+    - 2300034
+    - 6400032
+    cylinder28:
+    - 100042
+    - 400042
+    - 3300036
+    - 2300036
+    - 6400030
+    cylinder27:
+    - 100044
+    - 400044
+    - 3300038
+    - 2300038
+    - 6400028
+    cylinder25:
+    - 100046
+    - 400046
+    - 3300040
+    - 2300040
+    - 6400024
+    cylinder14:
+    - 100048
+    - 400048
+    - 3300042
+    - 2300042
+    - 6400020
+    cylinder26:
+    - 100050
+    - 400050
+    - 3300044
+    - 2300044
+    - 6400026
+    cylinder24:
+    - 100052
+    - 400052
+    - 3300046
+    - 2300046
+    - 6400022
+    cube2:
+    - 100054
+    - 400054
+    - 3300048
+    - 2300048
+    - 6400068
+    cylinder11:
+    - 100056
+    - 400056
+    - 3300050
+    - 2300050
+    - 6400016
+    cylinder12:
+    - 100058
+    - 400058
+    - 3300052
+    - 2300052
+    - 6400018
+    cylinder8:
+    - 100060
+    - 400060
+    - 3300054
+    - 2300054
+    - 6400004
+    cylinder7:
+    - 100062
+    - 400062
+    - 3300056
+    - 2300056
+    - 6400000
+    cylinder6:
+    - 100064
+    - 400064
+    - 3300058
+    - 2300058
+    - 6400002
+    polymsh3:
+    - 100066
+    - 400066
+    - 3300060
+    - 2300060
+    - 6400050
+    button_left:
+    - 100068
+    - 400068
+    - 3300062
+    - 2300062
+    - 6400062
+    button_middle:
+    - 100070
+    - 400070
+    - 3300064
+    - 2300064
+    - 6400060
+    button_right:
+    - 100072
+    - 400072
+    - 3300066
+    - 2300066
+    - 6400064
+    control_panel:
+    - 100074
+    - 400074
+    - 3300068
+    - 2300068
+    - 6400058
+    cube:
+    - 100076
+    - 400076
+    - 3300070
+    - 2300070
+    - 6400066
+    cylinder:
+    - 100078
+    - 400078
+    - 3300072
+    - 2300072
+    - 6400072
+    crvlist:
+    - 100080
+    - 400080
+    light:
+    - 100082
+    - 400082
+    Camera_Interest:
+    - 100084
+    - 400084
+    Camera:
+    - 100086
+    - 400086
+    Camera_Root:
+    - 100088
+    - 400088
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: polymsh_detached1
+    4300002: cylinder
+    4300004: cube
+    4300006: control_panel
+    4300008: button_right
+    4300010: button_middle
+    4300012: button_left
+    4300014: water_container1
+    4300016: polymsh3
+    4300018: cylinder6
+    4300020: cylinder7
+    4300022: cylinder8
+    4300024: cylinder12
+    4300026: cylinder11
+    4300028: cube2
+    4300030: cylinder24
+    4300032: cylinder26
+    4300034: cylinder14
+    4300036: cylinder25
+    4300038: cylinder27
+    4300040: cylinder28
+    4300042: cylinder29
+    4300044: cylinder30
+    4300046: cylinder32
+    4300048: cylinder34
+    4300050: cylinder35
+    4300052: cylinder36
+    4300054: cylinder37
+    4300056: polymsh
+    4300058: polymsh_detached2
+    4300060: polymsh_detached4
+    4300062: grid
+    4300064: polymsh4
+    4300066: sphere
+    4300068: sphere1
+    4300070: cube3
+    4300072: waterdrop
